@@ -30,8 +30,7 @@
             <a
               roll="button"
               class="btn btn-info btn-lg"
-              data-toggle="modal"
-              data-target="#reserveModal"
+              id = "reserveButton"
               title="Or call us at <br /><strong> 1-206-555-1234</strong>"
               >Reserve Campsite</a
             >
@@ -42,7 +41,7 @@
     <div id="reserveModal" class="modal fade" role="dialog">
       <div class="modal-dialog modal-lg" role="document">
         <div class="modal-content">
-          <div class="modal-header bg-info text-white">
+          <div class="modal-header">
             <h3 class="modal-title">Reserve a Campsite</h3>
             <button type="button" class="close" data-dismiss="modal">
               &times;
@@ -169,7 +168,7 @@
             </li>
           </ul>
           <span class="navbar-text ml-auto">
-            <a role="button" data-toggle="modal" data-target="#loginModal">
+            <a role="button" id="loginButton">
               <i class="fa fa-sign-in"></i>Login
             </a>
           </span>
